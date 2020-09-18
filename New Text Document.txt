@@ -1,0 +1,10 @@
+// random address generation 
+var faker = require('faker'); // Faker.js
+
+api.customer  = {
+    address: {
+        street: faker.address.streetAddress(),
+        city: faker.address.city(),
+        state: faker.address.state(),
+    }
+};
